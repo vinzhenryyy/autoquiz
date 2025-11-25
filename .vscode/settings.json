@@ -1,0 +1,9 @@
+{
+  // Prevent VS Code from attempting to download JSON schemas from the internet.
+  // This avoids "Unable to load schema from 'https://json.schemastore.org/prettierrc.json'"
+  // when the schema service is temporarily unavailable.
+  "json.schemaDownload.enable": false,
+
+  // Optional: you can also silence validation for specific files if needed.
+  // "json.validate.enable": false
+}
